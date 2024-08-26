@@ -1,9 +1,9 @@
 function Contatos(){
     return(
         <div className="contatos">
-            <img src="public/icons/github.png" alt="github"/>
-            <img src="public/icons/instagram.png" alt="instagram"/>
-            <img src="public/icons/linkedin.png" alt="linkedin"/>
+            <a href="https://github.com/tiagoproedu"><img alt="github" src="/assets/icons/github.png"/></a>
+            <a href="https://www.instagram.com/tidev_fullstack/"><img alt="instagram" src="/assets/icons/instagram.png"/></a>
+            <a href="https://www.linkedin.com/in/tiagoproedu/"><img alt="linkedin" src="/assets/icons/linkedin.png"/></a>
         </div>
     );
 }
