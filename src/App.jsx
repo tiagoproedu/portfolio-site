@@ -1,15 +1,12 @@
-import Contatos from "./components/Contatos";
 import Header from "./components/Header";
-import Principal from "./components/Principal";
+import AppRoutes from "./Routes";
 
 function App() {
     return(
         <>
         <Header />
 
-        <Principal />
-
-        <Contatos />
+        <AppRoutes />
         </>
     )
 }
