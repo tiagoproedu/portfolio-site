@@ -51,3 +51,20 @@ nav{
 .contatos img{
     height: 2rem;
 }
+.portfolio-boxes{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.portfolio-box{
+    width: 15rem;
+    height: 15rem;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

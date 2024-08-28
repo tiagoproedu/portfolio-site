@@ -17,10 +17,12 @@ function Portfolio() {
 
     return (
         <>
-            <div>
+            <div className="portfolio-boxes">
                 {portfolio.map(item => (
-                    <div id={item.id}>
-                        <h2>{item.name}</h2>
+                    <div id={item.id} className="portfolio-box">
+                        <h3>{item.name}</h3>
+                        <p>{item.description}</p>
+                        <button><a href={item.html_url}>Acessar</a></button>
                     </div>
                 ))}
             </div>
