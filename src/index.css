@@ -68,3 +68,12 @@ nav{
     justify-content: center;
     align-items: center;
 }
+.tecs{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+.tecs li{
+    width: 5rem;
+}
