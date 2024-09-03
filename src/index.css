@@ -68,8 +68,25 @@ nav{
     justify-content: center;
     align-items: center;
 }
+.carreira h1{
+    text-align: center;
+}
+.carreira h2{
+    text-align: center;
+}
+.carreira{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.expeform{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
 .tecs{
     display: flex;
+    justify-content: space-around;
     gap: 1rem;
     list-style: none;
     padding: 0;
