@@ -45,7 +45,7 @@ function Carreira() {
                     <li><img src="assets/icons/React.svg" alt="React" /></li>
                     <li><img src="assets/icons/Python.svg" alt="Python" /></li>
                     <li><img src="assets/icons/Node.js.svg" alt="Node.js" /></li>
-                    <li><img src="assets/icons/Microsoft SQL Server.svg" alt="SQL Server" /></li>
+                    <li id="sqlserver"><img src="assets/icons/Microsoft SQL Server.svg" alt="SQL Server" /></li>
                 </ul>
             </div>
             <div className="certificacoes">

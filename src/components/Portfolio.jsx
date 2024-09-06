@@ -17,6 +17,7 @@ function Portfolio() {
 
     return (
         <>
+            <h1>Portfolio</h1>
             <div className="portfolio-boxes">
                 {portfolio.map(item => (
                     <div id={item.id} className="portfolio-box">
@@ -26,6 +27,7 @@ function Portfolio() {
                     </div>
                 ))}
             </div>
+
         </>
     );
 }

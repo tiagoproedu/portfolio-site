@@ -6,4 +6,4 @@ por meio da carreira.
 
 **AUTOR**: Tiago da Silva Barbosa
 **TECNOLOGIAS**: JavaScript, HTML, CSS, React
-**VERSÃO**: 0.8.0
+**VERSÃO**: 1.0.0
